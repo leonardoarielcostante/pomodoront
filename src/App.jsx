@@ -127,7 +127,7 @@ function App() {
         <div className='divSesion'>
           <h2 id="timer-label">{ estado }</h2>
           <div id="time-left">{ formato(tiempo) }</div>
-          <audio id='beep' src='/beep.wav'></audio>
+          <audio id='beep' src='https://github.com/leonardoarielcostante/pomodoront/blob/main/beep.wav?raw=true'></audio>
         </div>
         <div className='divControl'>
           <button onClick={ encenderApagar } id="start_stop">Play/Stop</button>
